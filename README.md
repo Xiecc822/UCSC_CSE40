@@ -1,19 +1,11 @@
-# Hands-On 1 (HO1)
+# UCSC CSE 40: Machine Learning Basics: Data Analysis and Empirical Methods
 
-Before beginning, make sure your environment is properly set up.
-This was documented in Hands-On 0: https://github.com/ucsc-cse-40/HO0
+This repository is for UCSC CSE 40 programming assignments. 
 
-In this assignment, you will pre-process and analyze synthetic data (i.e., data produced by an algorithm rather than collected from the real world).
+## Assignments
 
-The objective of this assignment is for you to learn about:
- - Data manipulation (selecting, adding, removing rows and columns).
- - Data exploration (understanding the structure and contents of a dataset).
- - Data selection (filtering rows and columns).
- - Feature engineering (pre-processing data for use with machine learning).
- - Basic data visualization (plotting data to explore functional relationships between variables).
-
-## Submitting the Assignment
-
-Submit your assignment by running `python3 -m autograder.run.submit assignment.ipynb` from your local repository directory.
-This script will check for your cruzid, password, and assignment id in `config.json`
-and submit your work to a server controlled by the TAs where tests will be run, reporting the results back to you.
+- Pre-process and analyze synthetic data
+- The concept of empirical risk minimization and categories of errors that occur with binary classification tasks
+- Start with an unprocessed, real-world dataset and clean the dataset so that it is ready for machine learning algorithms
+- Scikit-learn
+- Clean, explore, visualize, and analyze dataset
